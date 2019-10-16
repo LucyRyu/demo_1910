@@ -1,0 +1,7 @@
+
+spring:   
+  datasource:       
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy 
+      jdbcUrl: jdbc:log4jdbc:mysql://127.0.0.1:3306/demodb?serverTimezone=UTC
+      username: id
+      password: password
